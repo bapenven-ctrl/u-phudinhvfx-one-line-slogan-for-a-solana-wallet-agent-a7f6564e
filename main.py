@@ -9,6 +9,11 @@ output file (that fails with PermissionError on the grading server).
 
 import os
 
+# The final slogan, chosen by internal tournament (see konsep.md).
+# 16 words, 84 characters, one line: the agent reads the fine print
+# (the contract) before any signature, so the user's SOL never has
+# to "learn the hard way". Kept as a literal constant so every run
+# writes byte-identical output.
 SLOGAN = "Your Solana wallet agent reads the fine print so your SOL never learns the hard way."
 
 OUTPUT_PATH = "/output/entry.txt"
